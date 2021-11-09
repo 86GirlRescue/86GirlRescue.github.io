@@ -56,7 +56,7 @@
     <script type="text/javascript">
         window.onload = function() {
             var request = new XMLHttpRequest();
-            request.open("GET", "http://185.170.210.110:12315/list?page=1&keywords=", true);
+            request.open("GET", "//185.170.210.110:12315/list?page=1&keywords=", true);
             request.send();
             request.onreadystatechange = function() {
                 if (request.readyState == 4 && request.status == 200) {}

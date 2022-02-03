@@ -1,3 +1,4 @@
 window.onload = function() {
-    location.href = resLink;
+	alert(1);
+    location.href = "https://86GirlRescue.github.io/resource/"+resLink;
 };
